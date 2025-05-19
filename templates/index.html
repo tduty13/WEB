@@ -3,7 +3,18 @@
         <title>Калькулятор</title>
     </head>
     <body>
-        <h1>Заголовок</h1>
+        <h1>Калькулятор</h1>
+        <form method="post">
+            <p>
+                <label>Площадь кв. м:</label>
+                <input name="area">
+            </p>
+            <p>
+                <input type="submit">
+            </p>
+        </form>
+
+
         <p>
             {% if message %}
             {{ message }}
